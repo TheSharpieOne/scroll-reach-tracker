@@ -11,7 +11,7 @@
 	};
 
 	// Sends the data of the current reach to GA for tracking/storage.
-	// Also, updates curReach to the user's currecnt reach
+	// Also, updates curReach to the user's current reach
 	var trackReach = function (reach) {
 		curReach = reach;
 		_gaq.push(['_trackEvent', document.title, 'scroll reach', curReach + '%', curReach, true]);
